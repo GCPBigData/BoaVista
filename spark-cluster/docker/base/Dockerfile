@@ -1,5 +1,5 @@
 FROM openjdk:8u212-b04-jdk-stretch
-LABEL author="Nathaniel Vala" email="nathanielvala@hotmail.com"
+LABEL author="Jose R F Junior" email="web2ajax@gmail.com"
 LABEL version="0.2"
 
 ENV DAEMON_RUN=true

@@ -23,8 +23,7 @@ object Joins extends App {
 
   // Joins
   val joinCondition = guitaristsDf.col("band") === bandsDf.col("id")
-  val guitaristsBandsDf = guitaristsDf
-    .join(bandsDf, joinCondition, "inner")
+  val guitaristsBandsDf = guitaristsDf.join(bandsDf, joinCondition, "inner")
 
   // Outer joins
   // Lef outer

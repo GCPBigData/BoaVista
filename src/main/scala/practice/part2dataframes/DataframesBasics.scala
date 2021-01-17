@@ -13,7 +13,7 @@ object DataframesBasics extends App {
 
   // Reading Df
   val firstDf = spark.read
-    .format("json")
+    .format("csv")
     .option("inferSchema", "true")
     .load("src/main/resources/data/cars.json")
 

@@ -2,7 +2,7 @@ package practice.part2dataframes
 
 import org.apache.spark.sql.{SaveMode, SparkSession}
 import org.apache.spark.sql.types.{DateType, DoubleType, LongType, StringType, StructField, StructType}
-import practice.dataframes.DataframesBasics.spark
+//import practice.dataframes.DataframesBasics.spark
 
 object Datasources extends App {
   val spark = SparkSession.builder()

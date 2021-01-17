@@ -1,4 +1,4 @@
-name := "SparkEssentials"
+name := "SparkBoaVista"
 
 version := "1.0.0"
 
